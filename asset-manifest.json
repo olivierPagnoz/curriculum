@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/olivierPagnoz/curriculum/static/css/main.2a0046b7.css",
+    "main.js": "/olivierPagnoz/curriculum/static/js/main.9c152a4e.js",
+    "static/js/592.f12c6436.chunk.js": "/olivierPagnoz/curriculum/static/js/592.f12c6436.chunk.js",
+    "index.html": "/olivierPagnoz/curriculum/index.html",
+    "main.2a0046b7.css.map": "/olivierPagnoz/curriculum/static/css/main.2a0046b7.css.map",
+    "main.9c152a4e.js.map": "/olivierPagnoz/curriculum/static/js/main.9c152a4e.js.map",
+    "592.f12c6436.chunk.js.map": "/olivierPagnoz/curriculum/static/js/592.f12c6436.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a0046b7.css",
+    "static/js/main.9c152a4e.js"
+  ]
+}
