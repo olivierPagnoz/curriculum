@@ -1,0 +1,29 @@
+.compprem {
+    background-color: white;
+    border: solid 6px blueviolet;
+    border-radius: 20px;
+    position: absolute;
+    width: 280px;
+    
+}
+.comphauttitreprem {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: blueviolet;
+
+}
+.comphauttexteprem {    
+    margin-left: 6%;
+}
+.comphauttitreblancprem {
+    margin-left: 6%;
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px) {
+    .compprem {
+        
+        width: 220px;
+        
+    }
+}

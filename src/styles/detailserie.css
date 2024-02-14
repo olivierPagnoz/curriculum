@@ -1,0 +1,219 @@
+.detailserie{
+    width: 100%;
+     
+}
+
+.containerdetail {
+    width: 100%;  
+    background-color: white;
+    height: 100%;  
+    
+}
+.competencehaut {
+    height: auto;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: -150px;
+
+   
+}
+.competencebas {
+    visibility: hidden;
+    height: auto;
+    position: absolute;
+    margin-top: -400px;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.premligne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20%;
+    height: auto;
+
+}
+.titreposte {
+    font-size: 2rem;
+}
+.contratposte {
+    font-size: 1rem;
+    padding-top: 1.1rem;
+    margin-left: 20%;
+}
+.detailposte {
+    width: 60%;
+    font-size: 1.1rem;
+    margin-top: 1%;
+    margin-left: 20%;
+}
+.detailemployeur {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+}
+@media screen and (max-width: 1300px) {
+    .titreposte {
+        font-size: 1.8rem;
+    }
+    .contratposte {
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .titreposte {
+        font-size: 1.7rem;
+    }
+    .competencehaut {
+        margin-left: -100px;   
+    }
+    .contratposte {
+        padding-top: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .premligne {
+        display: block;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+    .competencehaut {
+        margin-left: -120px;
+        
+    }
+    .contratposte {
+        padding-top: 0rem;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .premligne {
+        margin-left: 25%;
+    }
+    .detailposte{
+        margin-left: 25%;
+    }
+    .detailemployeur {
+        margin-left: 25%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .detailserie{
+        background-color: red;           
+    }
+    .competencehaut {
+        visibility: hidden;
+        position: absolute;
+        height: 5%;
+        margin-top: -50%;
+        
+    }
+    .containerdetail {
+        width: 100%;  
+        height: auto;
+        
+    }
+    .competencebas {
+        visibility: visible;
+        position: relative;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 6%;
+        
+    }
+    .titreposte {
+        font-size: 1.6rem;
+        
+        
+    }
+    .detailposte {
+        width: 80%;
+        margin-left: 6%;
+        font-size: 1rem;
+        margin-top: 1%;
+    }  
+    .detailemployeur {
+        margin-left: 6%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .contratposte {
+        margin-top: 0%;
+    }
+    .premligne {
+        display: block;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 6%;
+    
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .detailserie{
+        overflow-y: scroll;
+        background-color: white;       
+    }
+    .competencehaut {
+        visibility: hidden;
+        position: absolute;
+        height: 5%;
+        margin-top: -50%;
+        
+    }
+    .containerdetail {
+        width: 100%;  
+        height: auto;
+        
+        visibility: visible;
+        
+    }
+    .competencebas {
+        visibility: visible;
+        position: relative;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 6%;
+        
+    }
+    .titreposte {
+        font-size: 1.6rem;
+        
+        
+    }
+    .detailposte {
+        width: 80%;
+        margin-left: 6%;
+        font-size: 1rem;
+        margin-top: 1%;
+    }  
+    .detailemployeur {
+        margin-left: 6%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .contratposte {
+        margin-top: 0%;
+    }
+    .premligne {
+        display: block;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 6%;
+    
+    }
+    
+
+}

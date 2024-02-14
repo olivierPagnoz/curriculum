@@ -1,0 +1,105 @@
+.hautcontent {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "gauche centre droite"
+    "gauche centre2 droite2";
+    height: 100%;
+    background-color: brown;
+}
+
+.gauchehaut {
+    grid-area:gauche;
+    background-color: beige;
+    height: 100%;
+}
+
+.nom {
+    grid-area: centre;
+    background-color: rgb(150, 30, 88);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    
+}
+.texte {
+    grid-area: centre2;
+    background-color: rgb(176, 243, 243);
+    height: 100%;
+    p {
+        margin: auto;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        
+    }
+}
+.contact {
+    grid-area: droite;
+    height: 100%;
+    h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+               
+    }
+}
+.textecontact {
+    grid-area: droite2;
+    background-color: rgb(235, 235, 132);
+    height: 100%;
+    
+    p{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .hautcontent {
+        display: block;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "photo"
+        "nom"
+        "detail"
+        "ctc"
+        "dtctc";
+    height: 100%;
+    
+    
+    }
+    .gauchehaut {
+        grid-area:photo;
+        background-color:beige;
+        height: 1%;
+    }
+    .nom {
+        grid-area: nom;
+        height: 48%;
+        justify-content: center;
+        font-size: 2rem;
+        
+    }
+    .texte {
+        grid-area: detail;
+        background-color: rgb(176, 243, 243);
+        height: 1%;
+        visibility: hidden; 
+    }
+    .contact {
+        grid-area: ctc;
+        
+        height: 48%;   
+    }
+    .textecontact {
+        grid-area: dtctc;
+        background-color: rgb(235, 235, 132);
+        height: 1%;
+        visibility: hidden;    
+    }
+
+}

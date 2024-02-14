@@ -1,0 +1,29 @@
+.complogistique {
+    background-color: white;
+    border: solid 6px chartreuse;
+    border-radius: 20px;
+    position: absolute;
+    width: 280px;
+    
+}
+.comphauttitre {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: chartreuse;
+
+}
+.comphauttexte {
+    margin-left: 6%;
+}
+.comphauttitreblanc {
+    margin-left: 6%;
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px) {
+    .complogistique {
+        
+        width: 220px;
+        
+    }
+}

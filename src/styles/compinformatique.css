@@ -1,0 +1,29 @@
+.compinformatique {
+    background-color: white;
+    border: solid 6px red;
+    border-radius: 20px;
+    position: absolute;
+    width: 280px;
+    
+}
+.comphauttitreinfo {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: red;
+
+}
+.comphauttexteinfo {
+    margin-left: 6%;
+}
+.comphauttitreblancinfo {
+    margin-left: 6%;
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px) {
+    .compinformatique {
+        
+        width: 220px;
+        
+    }
+}

@@ -1,0 +1,31 @@
+.bascontent {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.navigation{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: cyan;
+}
+
+.loggrid {
+    
+    height: 100%;
+
+}
+.infgrid {
+    
+    height: 100%;
+}
+.premgrid {
+   
+    height: 100%;
+}
+@media screen and (max-width: 500px) {
+    .bascontent {
+        width: 80%;
+        
+    }
+}
