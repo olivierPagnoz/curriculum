@@ -1,4 +1,4 @@
 # CV RESPONSIVE DESIGN
 
-GRID CSS Projet [https://github.com/olivierpagnoz/curriculum/]
+GRID CSS Projet [Ma 1 page] [https://olivierpagnoz.github.io/curricumun]
 
